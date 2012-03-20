@@ -106,7 +106,6 @@ public class App {
 	public void shutdown() {
         dismissToast();
         mReverseGeocoder.shutdown();
-        mHandlerThread.quit();
         
         // unregister
         mMap.remove(mContext);
